@@ -2,6 +2,10 @@ escape ^t^t
 defscrollback 20000
 vbell off
 startup_message off
+
+defencoding utf-8
+encoding utf-8 utf-8
+
 termcapinfo xterm 'is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l'
 #hardstatus alwayslastline "%{=b GK} %H[%n]: %l %{.b} %Y/%m/%d %c:%s"
 hardstatus alwayslastline "%{=b GK} %H[%n]: %l %{.b}"
