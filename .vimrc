@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 " タブの設定
 set tabstop=4
 
